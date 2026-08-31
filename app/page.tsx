@@ -4,7 +4,7 @@ import MyUI from "@/components/MyUI";
 
 export default async function Home() {
   return (
-    <div className="flex flex-col h-svh items-start font-sans dark:bg-black">
+    <div className="flex flex-col h-svh items-start font-sans ">
       <Header />
       <main className="flex items-center w-full  flex-col">
         <div className="flex w-full h-full">
