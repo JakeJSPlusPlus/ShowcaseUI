@@ -11,7 +11,7 @@ export default function LoginCard() {
 
   }
   return <div style={{ backgroundColor: colors[theme ?? 0].pri, borderColor: colors[theme ?? 0].acc }}
-    className="flex flex-col rounded-lg px-10 py-5 mt-10 border-3 mb-30">
+    className="flex flex-col rounded-lg px-10 py-5 border-3">
     <form action={submitForm}>
       <div className="flex flex-col py-1">
         <label className="text-white w-40 text-shadow-lg/30">Username</label>
