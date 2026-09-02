@@ -1,6 +1,9 @@
 import Image from "next/image";
 
 export default function Header() {
+  {
+    /* Extremely basic header globe is a placeholder for the user's avatar */
+  }
   return (
     <>
       <header className="flex h-15 items-center justify-end w-full py-5 px-2 gap-x-2">
